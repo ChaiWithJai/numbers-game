@@ -1,51 +1,61 @@
-
 <!DOCTYPE html>
 <html lang="en">
 
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Guessing Game</title>
-    <link rel="stylesheet" href="main.css">
-  </head>
+<head>
+  <meta charset="UTF-8">
+  <title>Guessing Game</title>
+  <link rel="stylesheet" href="main.css">
+</head>
 
-  <body>
-        <div id = "Container">
-                <div id = "Game" class = "center">
-                  <p>Take Your Best Guess!</p>
-                </div> 
-              
-                <div id = "Input">
-                  <input id = "InputGuess" placeholder = '*' maxlength = "3" autofocus><br>
-                  <button id = "Submit" class = "button">Submit</button>
-                </div>
-          
-                <div id="Guesses">
-                  <ul id="GuessList"> 
-                    <!-- <li>--</li>
-                    <li>--</li>
-                    <li>--</li>
-                    <li>--</li>
-                    <li>--</li> -->
-                  </ul>
-                </div>
-          
-                <div id = "Buttons">
-                  <button id = "Reset" class = "button">Reset</button> <button id = "Hint" class = "button">Hint</button> 
-                </div>
-          
-                <div id = "Footer">
-                    <div id="Jay"><a href="https://www.linkedin.com/in/jaybhagat/"><img src="images/profile-pic.jpeg"></a></div>
-                    <div id="JayBiscuits"><a href="https://github.com/JBhagat841"><p><b>Jay Bhagat</b></p></a></div>
-                  </div> 
-                </div>
-              </div>
-          
-          
-          
-          
-              <script src='js/guessing-game.js'></script>
-          
-  </body>
+<body>
+
+  <div id="app">
+
+    <div class="center">
+      <h1>Play the Guessing Game!</h1>
+      <h3 id="subtitle">Guess a number between 1-100!</h3>
+    </div>
+
+    <div id='guess-feedback' class='center'>
+      <h4></h4>
+    </div>
+
+    <div>
+      <div id="input-parent" class="center">
+        <input class="center" id="player-input" maxlength='3' autofocus=autofocus></input>
+        <button id="submit">Go!</button>
+        <button id="hint">Please, Please Help Me!!!</button>
+      </div>
+
+      <div class="center">
+        <ul id="guess-list">
+          <li class="guess">-</li>
+          <li class="guess">-</li>
+          <li class="guess">-</li>
+          <li class="guess">-</li>
+          <li class="guess">-</li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+
+
+
+  <div id="footer" class="center">
+
+    <div>
+      <h4>Jay Bhagat</h4>
+    </div>
+
+  </div>
+  </div>
+
+</body>
+
+
+
+<script src='js/numbers-game.js'></script>
+</body>
 
 </html>

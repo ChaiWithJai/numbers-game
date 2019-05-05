@@ -10,8 +10,8 @@
     
     
      body {
-      background-color: rgb(71, 71, 71);
-      font-family: segoe;
+      background-color: #f7f7f7;
+      font-family: ttnorms;
     }
     
     ul {
@@ -23,7 +23,7 @@
       margin-right: 5px;
       border: 5px solid #008CBA;
       padding: 5px 15px;
-      color: white;
+      color: #0055ff;
       display: inline;
       font-size: 30px;
     }
@@ -48,7 +48,7 @@
       font-weight: bolder;
       font-size: 65px;
       text-shadow: -5px 5px rgba(0,0,0,0.19);
-      color: #008CBA;
+      color: #0055ff;
       margin-top: -50px;
       margin-bottom: -50px;
       font-family: circuit;
@@ -57,7 +57,7 @@
     
     #Message {
       font-size: 25px;
-      color: #008CBA;
+      color: #0055ff;
       font-weight: bold;
     }
     
@@ -74,7 +74,7 @@
       flex-wrap: wrap;
       position: fixed;
       bottom: 0;
-      background-color: white;
+      background-color: #efefef;
       border-top: 2px solid black;
       width: 100%;
     }
